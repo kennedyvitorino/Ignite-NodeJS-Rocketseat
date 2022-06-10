@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Users\Davyd\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Davyd\AppData\Local\Programs\Python\Python310\;C:\Program Files\Zulu\zulu-11\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Davyd\AppData\Local\Microsoft\WindowsApps;;C:\Users\Davyd\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2022.1.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.2\bin;;C:\Users\Davyd\AppData\Roaming\npm;C:\Users\Davyd\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\node-rocketseat\fundamentos-nodejs\package.json: Unexpected token e in JSON at position 100
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "fundamentos-nodejs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+  
+  express
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
